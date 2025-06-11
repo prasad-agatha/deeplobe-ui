@@ -1,0 +1,8 @@
+$primary: #6152d9;
+
+// Bootstrap and its default variables
+@import "node_modules/bootstrap/scss/bootstrap";
+// Required
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";

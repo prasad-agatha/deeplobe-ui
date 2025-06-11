@@ -1,0 +1,42 @@
+.custom-input {
+  border: 0;
+  width: 100%;
+  line-height: 36px;
+  padding: 6px 13px;
+  height: 45px;
+  color: #000000;
+  background: #edf2f7;
+
+  font-size: 15px;
+  // -webkit-transition: all 500ms ease;
+  // -ms-transition: all 500ms ease;
+  // -moz-transition: all 500ms ease;
+
+  // transition: all 500ms ease;
+  border-radius: 6px;
+}
+.custom-input:focus {
+  // border-color: $primary;
+  // border-width: 1px;
+  border: 2px solid rgb(228, 227, 227);
+}
+.password {
+  border-width: 0;
+  background-color: transparent;
+}
+.password:focus {
+  outline: none;
+  border-width: 0px;
+}
+.custom-input::placeholder {
+  // color: #b8bec7;
+  opacity: 1; /* Firefox */
+}
+.auth-error-message {
+  height: 60px;
+  width: 100%;
+  background-color: #ffe3e6;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
